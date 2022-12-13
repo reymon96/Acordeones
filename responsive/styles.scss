@@ -1,0 +1,31 @@
+$breakpoints: (
+	sm: 540px,
+	md: 750px,
+	lg: 1000px
+);
+
+@mixin media-up($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+			@content;
+		}	
+	} @else {
+		@warn '#{$breakpoint} invalid breakpoint.';
+	}
+	
+}
+
+body {
+
+	@include media-up(sm) {
+		background-color: red;
+	}
+
+	@include media-up(md) {
+		background-color: yellow;
+	}
+
+	@include media-up(lg) {
+		background-color: blue;
+	}
+}

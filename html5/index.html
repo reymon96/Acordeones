@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>HTML5 Tag</title>
+	<link rel="stylesheet" href="">
+</head>
+
+<body>
+	<header id="header" class="">
+		<h1>Etiquetas de HTML5</h1>
+		<h2>Ejemplos y codigo</h2>
+	</header>
+	<table border="1" width="100%">
+		<caption>Tag HTML5</caption>
+		<thead>
+			<tr>
+				<th width="2%">#</th>
+				<th width="18%">Descripción</th>
+				<th width="30%">Etiqueta</th>
+				<th width="50%">Ejemplo</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!--#1-------------------------------------------------------------------------------->
+			<tr>
+				<td>1</td>
+				<td>Comentario</td>
+				<td> <code> < !--Hola-- > </code> </td>
+				<td>
+
+				</td>
+			</tr>
+			<!--#2-------------------------------------------------------------------------------->
+			<tr>
+				<td>2</td>
+				<td>Indice para documento HTML5</td>
+				<td> <code> < !DOCTYPE > </code> </td>
+				<td>
+
+				</td>
+			</tr>
+			<!--#3-------------------------------------------------------------------------------->
+			<tr>
+				<td>3</td>
+				<td>Link</td>
+				<td>
+					<code>
+						 < a href="" > Texto < /a > 
+					</code>
+				</td>
+				<td>
+					<a href="https://google.com">Google</a>
+				</td>
+			</tr>
+			<!--#4-------------------------------------------------------------------------------->
+			<tr>
+				<td>4</td>
+				<td>Define una abreviación o un acronimo</td>
+				<td>
+					<code>
+						< abbr title="" > Texto < /abbr >
+					</code>
+				</td>
+				<td>
+					The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+				</td>
+			</tr>
+			<!--#5-------------------------------------------------------------------------------->
+			<tr>
+				<td>5</td>
+				<td>Define la dirección de contacto</td>
+				<td>
+					<code>
+						< address > Contenido < /address >
+					</code>
+				</td>
+				<td>
+					<details>
+						<p>
+							<summary>Ejemplo</summary>
+							<address>
+								Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+								Visit us at:<br>
+								Example.com<br>
+								Box 564, Disneyland<br>
+								USA
+							</address>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#6-------------------------------------------------------------------------------->
+			<tr>
+				<td>6</td>
+				<td>Define un área dentro de una imágen</td>
+				<td>
+					<code>
+						< area shape="" coords="" href="" >
+					</code>
+				</td>
+				<td>
+					<details>
+						<p>
+							<summary>Ejemplo</summary>
+							<img src="workplace.jpeg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+							<map name="workmap">
+								<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+								<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+								<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+							</map>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#7-------------------------------------------------------------------------------->
+			<tr>
+				<td>7</td>
+				<td>Sección de artículo</td>
+				<td>
+					<code>
+						< article > < /article >
+					</code>
+				</td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<article>
+								<h2>Mozilla Firefox</h2>
+								<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the
+									second most popular web browser since January, 2018.</p>
+							</article>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#8-------------------------------------------------------------------------------->
+			<tr>
+				<td>8</td>
+				<td>Define el área destinada a los anuncios</td>
+				<td>
+					<code> < aside >Publicidad< /aside > </code>
+				</td>
+				<td>
+					<aside>
+						<h2>Anuncio</h2>
+					</aside>
+				</td>
+			</tr>
+			<!--#9-------------------------------------------------------------------------------->
+			<tr>
+				<td>9</td>
+				<td>Reproducción de audio</td>
+				<td><code> < audio src="" > Alerta < /audio > </code></td>
+				<td>
+					<audio controls>
+						<source src="Amerika.ogg" type="audio/ogg">
+						<source src="Amerika.mp3" type="audio/mpeg">
+						Your browser does not support the audio tag.
+					</audio>
+				</td>
+			</tr>
+			<!--#10------------------------------------------------------------------------------->
+			<tr>
+				<td>10</td>
+				<td>Texto en negritas</td>
+				<td> <code> < b >Nigga< /b > </code> </td>
+				<td> <b>Nigga</b> </td>
+			</tr>
+			<!--#11------------------------------------------------------------------------------->
+			<tr>
+				<td>11</td>
+				<td>Especifica la ruta base para extraer las direcciones</td>
+				<td> <code> < base href="ruta" > </code> </td>
+				<td> <base href="./"> </td>
+			</tr>
+			<!--#12------------------------------------------------------------------------------->
+			<tr>
+				<td>12</td>
+				<td>Aisla los nombres de usuario de los demás elementos</td>
+				<td> <code> < bdi >USUARIO< /bdi > </code> </td>
+				<td>
+					<ul>
+						<li>User <bdi>hrefs</bdi>: 60 points</li>
+						<li>User <bdi>jdoe</bdi>: 80 points</li>
+						<li>User <bdi>إيان</bdi>: 90 points</li>
+					</ul>
+				</td>
+			</tr>
+			<!--#13------------------------------------------------------------------------------->
+			<tr>
+				<td>13</td>
+				<td>Indica la dirección de una cadena de texto</td>
+				<td> <code> < bdo dir="rtl"> Texto < /bdo > </code> </td>
+				<td>
+					<bdo dir="rtl">Texto</bdo>
+				</td>
+			</tr>
+			<!--#14------------------------------------------------------------------------------->
+			<tr>
+				<td>14</td>
+				<td>Sección para citar otra fuente de información</td>
+				<td> <code> < blockquote >  < /blockquote > </code> </td>
+				<td>
+					<blockquote cite="http://www.worldwildlife.org/who/index.html">
+						For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+					</blockquote>
+				</td>
+			</tr>
+			<tr>
+			<!--#15------------------------------------------------------------------------------->
+			<tr>
+				<td>15</td>
+				<td>Define el cuerpo del documento</td>
+				<td> <code>	< body > Contenido < /body > </code> </td>
+				<td> <body> Contenido </body> </td>
+			</tr>
+			<!--#16------------------------------------------------------------------------------->
+			<tr>
+				<td>16</td>
+				<td>Crea un salto de linea</td>
+				<td> <code> < br > </code> </td>
+				<td>
+					<br>
+				</td>
+			</tr>
+			<!--#17------------------------------------------------------------------------------->
+			<tr>
+				<td>17</td>
+				<td> Defines a clickable button </td>
+				<td> <code>	< button >Aceptar< /button > </code> </td>
+				<td>
+					<button>
+						Aceptar
+					</button>
+				</td>
+			</tr>
+			<!--#18------------------------------------------------------------------------------->
+			<tr>
+				<td>18</td>
+				<td>Crea gráficos usando Javascript</td>
+				<td> <code>	< canvas > Código < /canvas > </code> </td>
+				<td>
+					<canvas id="myCanvas">
+						Your browser does not support the canvas tag.
+					</canvas>
+
+					<script>
+						var canvas = document.getElementById("myCanvas");
+						var ctx = canvas.getContext("2d");
+						ctx.fillStyle = "#FF0000";
+						ctx.fillRect(0, 0, 80, 80);
+					</script>
+				</td>
+			</tr>
+			<!--#19------------------------------------------------------------------------------->
+			<tr>
+				<td>19</td>
+				<td>Define el encabezado de la tabla</td>
+				<td> <code>	< caption >< /caption >	</code> </td>
+				<td>
+					<table>
+						<caption>Titulo</caption>
+					</table>
+				</td>
+			</tr>
+			<!--#20------------------------------------------------------------------------------->
+			<tr>
+				<td>20</td>
+				<td>Define el titulo de un trabajo</td>
+				<td> <code>	< cite >Trabajo< /cite > </code> </td>
+				<td>
+					<cite>
+						<img src="workplace.jpeg" width="100px" alt="Example">
+						<p><cite>Workplace</cite> by internet.</p>
+					</cite>
+				</td>
+			</tr>
+			<!--#21------------------------------------------------------------------------------->
+			<tr>
+				<td>21</td>
+				<td>Define una pieza de código para muestra</td>
+				<td> <code>	< code >Código< /code > </code> </td>
+				<td>
+					<code>System.out.print("");</code>
+				</td>
+			</tr>
+			<!--#22------------------------------------------------------------------------------->
+			<tr>
+				<td>22</td>
+				<td>Especifica las propiedades que tendrá la columna</td>
+				<td> <code>	< col style=""> </code> </td>
+				<td>
+					<table>
+					  <colgroup>
+					    <col span="2" style="background-color:red">
+					    <col style="background-color:yellow">
+					  </colgroup>
+					  <tr>
+					    <th>ISBN</th>
+					    <th>Title</th>
+					    <th>Price</th>
+					  </tr>
+					  <tr>
+					    <td>3476896</td>
+					    <td>My first HTML</td>
+					    <td>$53</td>
+					  </tr>
+					</table>
+				</td>
+			</tr>
+			<!--#23------------------------------------------------------------------------------->
+			<tr>
+				<td>23</td>
+				<td>Especifica el grupo con las propiedades de la columna</td>
+				<td> <code>	< colgroup > < col > < /colgroup > </code> </td>
+				<td>
+					<table>
+					  <colgroup>
+					    <col span="2" style="background-color:red">
+					    <col style="background-color:yellow">
+					  </colgroup>
+					  <tr>
+					    <th>ISBN</th>
+					    <th>Title</th>
+					    <th>Price</th>
+					  </tr>
+					  <tr>
+					    <td>3476896</td>
+					    <td>My first HTML</td>
+					    <td>$53</td>
+					  </tr>
+					</table>
+				</td>
+			</tr>
+			<!--#24------------------------------------------------------------------------------->
+			<tr>
+				<td>24</td>
+				<td>Asocia un valor a un dato</td>
+				<td> <code>	< data value="x">Dato< /data > </code> </td>
+				<td>
+					<ul>
+					  <li><data value="21053">Cherry Tomato</data></li>
+					  <li><data value="21054">Beef Tomato</data></li>
+					  <li><data value="21055">Snack Tomato</data></li>
+					</ul>
+				</td>
+			</tr>
+			<!--#25------------------------------------------------------------------------------->
+			<tr>
+				<td>25</td>
+				<td>Crea una lista con opciones predefinidas</td>
+				<td> <code>	< datalist > Opciones < /datalist > </code> </td>
+				<td>
+					<label for="browser">Choose your browser from the list:</label>
+					<input list="browsers" name="browser" id="browser">
+					<datalist id="browsers">
+					  <option value="Edge">
+					  <option value="Firefox">
+					  <option value="Chrome">
+					  <option value="Opera">
+					  <option value="Safari">
+					</datalist>
+				</td>
+			</tr>
+			<!--#26------------------------------------------------------------------------------->
+			<tr>
+				<td>26</td>
+				<td>Define la descripción de un elemento en lista</td>
+				<td> <code>	< td >Dato< /td > < dd >Descripción< /dd > </code> </td>
+				<td>
+					<dl>
+					  <dt>Coffee</dt>
+					  <dd>Black hot drink</dd>
+					  <dt>Milk</dt>
+					  <dd>White cold drink</dd>
+					</dl>
+				</td>
+			</tr>
+			<!--#27------------------------------------------------------------------------------->
+			<tr>
+				<td>27</td>
+				<td>Indica el texto que debe ser borrado del documento</td>
+				<td> <code>	< del >Texto a borrar< /del > </code> </td>
+				<td>
+					Texto a <del>escribir</del> borrar.
+				</td>
+			</tr>
+			<!--#28------------------------------------------------------------------------------->
+			<tr>
+				<td>28</td>
+				<td>Define los detalles adicionales de una opción</td>
+				<td> <code>	< details >Contenido< /details >	</code> </td>
+				<td>
+					<details>
+					  <summary>Epcot Center</summary>
+					  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+					</details>
+				</td>
+			</tr>
+			<!--#29------------------------------------------------------------------------------->
+			<tr>
+				<td>29</td>
+				<td>Marca un termino que será explicado más a delante</td>
+				<td> <code>	< dfn >Termino< /dfn > </code> </td>
+				<td>
+					<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+				</td>
+			</tr>
+			<!--#30------------------------------------------------------------------------------->
+			<tr>
+				<td>30</td>
+				<td>Crea una caja o ventana de dialogo</td>
+				<td> <code>	< dialog > Texo < /dialog > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<dialog open>Hola!</dialog>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#31------------------------------------------------------------------------------->
+			<tr>
+				<td>31</td>
+				<td>Define una sección del documento</td>
+				<td> <code>	< div >Contenido< /div >	</code> </td>
+				<td>
+					<div>
+						<!---Algo-->
+					</div>
+				</td>
+			</tr>
+			<!--#32------------------------------------------------------------------------------->
+			<tr>
+				<td>32</td>
+				<td>Crea una lista con descripción</td>
+				<td> <code>	< dl > Contenido < /dl > </code> </td>
+				<td>
+					<dl>
+						<dt>Café</dt>
+						<dd>Bebida Caliente</dd>
+						<dt>Leche</dt>
+						<dd>Bebida fria</dd>
+					</dl>
+				</td>
+			</tr>
+			<!--#33------------------------------------------------------------------------------->
+			<tr>
+				<td>33</td>
+				<td>Define el titulo de un elemento en la lista</td>
+				<td> <code>	< dt >Titulo< /dt >	</code> </td>
+				<td>
+					<dl>
+						<dt>Titulo</dt>
+						<dd>Descripción</dd>
+					</dl>
+				</td>	
+			</tr>
+			<!--#34------------------------------------------------------------------------------->
+			<tr>
+				<td>34</td>
+				<td>Emfatiza una palabra en un texto</td>
+				<td> <code>	< em >Palabra< /em > </code> </td>
+				<td>
+					<p> <em>Hello</em> friend! </p>
+				</td>
+			</tr>
+			<!--#35------------------------------------------------------------------------------->
+			<tr>
+				<td>35</td>
+				<td>Define un contenedor para una plicación externa</td>
+				<td> <code>	< embed type="" src="" >	</code> </td>
+				<td>
+					<embed type="image/jpg" src="workplace.jpeg" width="100px">
+				</td>
+			</tr>
+			<!--#36------------------------------------------------------------------------------->
+			<tr>
+				<td>36</td>
+				<td>Agrupa elemenos contenidos en un formulario</td>
+				<td> <code>	< fieldset >Elementos< /fieldset >	</code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+							<form action="#" method="POST">
+								<fieldset>
+									<legend>Elementos</legend>
+									<input type="text" name="nombre" placeholder="Nombre" required>
+									<button type="submit">Aceptar</button>
+								</fieldset>
+							</form>
+					</details>
+				</td>
+			</tr>
+			<!--#37------------------------------------------------------------------------------->
+			<tr>
+				<td>37</td>
+				<td>Define el pié de una foto</td>
+				<td> <code>	< figcaption >Pie< /figcaption > </code> </td>
+				<td>
+					<figure>
+						<img src="workplace.jpeg" width="100px">
+						<figcaption>Área de trabajo</figcaption>
+					</figure>
+				</td>
+			</tr>
+			<!--#37------------------------------------------------------------------------------->
+			<tr>
+				<td>38</td>
+				<td>Especifica el uso de una imágen</td>
+				<td> <code>	< figure >Detalles< /figure > </code> </td>
+				<td>
+					<figure>
+						<img src="workplace.jpeg" width="100px">
+						<figcaption>Área de trabajo</figcaption>
+					</figure>
+				</td>
+			</tr>
+			<!--#39------------------------------------------------------------------------------->
+			<tr>
+				<td>39</td>
+				<td>Define el pié de página de una web</td>
+				<td> <code>	< footer >Texto< /footer > </code> </td>
+				<td>
+					<footer>Pié de página</footer>
+				</td>
+			</tr>
+			<!--#40------------------------------------------------------------------------------->
+			<tr>
+				<td>40</td>
+				<td> Defines an HTML form for user input </td>
+				<td> <code>	< form >Datos< /form > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+							<form action="#" method="POST">
+								<fieldset>
+									<legend>Elementos</legend>
+									<input type="text" name="nombre" placeholder="Nombre" required>
+									<button type="submit">Aceptar</button>
+								</fieldset>
+							</form>
+					</details>
+				</td>
+			<!--#41------------------------------------------------------------------------------->
+			<tr>
+				<td>41</td>
+				<td>Define el tamaño de los titulos</td>
+				<td> <code>	< h1 > to < h6 > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplos</summary>
+						<p>
+							<h1>Titulo 1</h1>
+							<h2>Titulo 2</h2>
+							<h3>Titulo 3</h3>
+							<h4>Titulo 4</h4>
+							<h5>Titulo 5</h5>
+							<h6>Titulo 6</h6>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#42------------------------------------------------------------------------------->
+			<tr>
+				<td>42</td>
+				<td>Contiene los metadatos y la información del documento</td>
+				<td> <code>	< head >Metadatos< /head > </code> </td>
+				<td>
+					<!----->
+				</td>
+			</tr>
+			<!--#43------------------------------------------------------------------------------->
+			<tr>
+				<td>43</td>
+				<td>Define el encabezado del documento</td>
+				<td> <code>	< header >Encabezado< /header > </code> </td>
+				<td>
+					<!---->
+				</td>
+			</tr>
+			<!--#44------------------------------------------------------------------------------->
+			<tr>
+				<td>44</td>
+				<td>Define un cambio de tema a menera de línea</td>
+				<td> <code>	< hr > </code> </td>
+				<td>
+					<p>Tema 1</p>
+					<hr>
+					<p>Tema 2</p>
+				</td>
+			</tr>
+			<!--#45------------------------------------------------------------------------------->
+			<tr>
+				<td>45</td>
+				<td> Defines the root of an HTML document </td>
+				<td> <code>	< html >Documento< /html > </code> </td>
+				<td>
+					<!----->
+				</td>
+			</tr>
+			<!--#46------------------------------------------------------------------------------->
+			<tr>
+				<td>46</td>
+				<td>Texto en italica</td>
+				<td> <code>	< i >< /i >	</code> </td>
+				<td>
+					<i>Texto</i> en italicas
+				</td>
+			</tr>
+			<!--#47------------------------------------------------------------------------------->
+			<tr>
+				<td>47</td>
+				<td>Define un espacio para uso de un iframe</td>
+				<td> <code>	< iframe src="">< /iframe > </code> </td>
+				<td>
+					<iframe src="https://www.google.com" width="100px" height="100px">Google</iframe>
+				</td>
+			</tr>
+			<!--#48------------------------------------------------------------------------------->
+			<tr>
+				<td>48</td>
+				<td>Define una imágen</td>
+				<td> <code>	< img src="" > </code> </td>
+				<td>
+					<img src="workplace.jpeg" width="100px">
+				</td>
+			</tr>
+			<!--#49------------------------------------------------------------------------------->
+			<tr>
+				<td>49</td>
+				<td>Define una entrada de datos</td>
+				<td> <code>	< input type=""> </code> </td>
+				<td>
+					<input type="password" name="password" placeholder="Password" required>
+				</td>
+			</tr>
+			<!--#50------------------------------------------------------------------------------->
+			<tr>
+				<td>50</td>
+				<td>Define un texto que debe ser insertado en el documento</td>
+				<td> <code>	< ins >Texto a insertar< /ins > </code> </td>
+				<td>
+					<p>Estás bien <del>pendej@</del> <ins>Hermos@</ins> </p>
+				</td>
+			</tr>
+			<!--#51------------------------------------------------------------------------------->
+			<tr>
+				<td>51</td>
+				<td>Define la entrada por teclado</td>
+				<td> <code>	< kbd >Tecla< /kbd >	</code> </td>
+				<td>
+					<p> Preciona <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar texto. </p>
+				</td>
+			</tr>
+			<!--#52------------------------------------------------------------------------------->
+			<tr>
+				<td>52</td>
+				<td>Define una etiqueta</td>
+				<td> <code>	< label >Texto< /label >	</code> </td>
+				<td>
+					<label>Texto</label>
+				</td>
+			</tr>
+			<!--#53------------------------------------------------------------------------------->
+			<tr>
+				<td>53</td>
+				<td>Define el titulo en un fieldset</td>
+				<td> <code>	< legend >Titulo< /legend > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<form>
+								<fieldset>
+									<legend>Titulo</legend>
+									<label>Contenido</label>
+								</fieldset>
+							</form>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#54------------------------------------------------------------------------------->
+			<tr>
+				<td>54</td>
+				<td>Define un elemento en una lista de elementos</td>
+				<td> <code>	< li >Elementos< /li > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<ul>
+								<li>Elemento</li>
+							</ul>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#55------------------------------------------------------------------------------->
+			<tr>
+				<td>55</td>
+				<td>Define un vinculo para un enlace externo</td>
+				<td> <code>	< link rel="" href=""> </code> </td>
+				<td> 
+					<!---------->
+				</td>
+			</tr>
+			<!--#56------------------------------------------------------------------------------->
+			<tr>
+				<td>56</td>
+				<td>Define el contenido principal del documento</td>
+				<td> <code>	< main >Contenido< /main > </code> </td>
+				<td>
+					<!---->
+				</td>
+			</tr>
+			<!--#57------------------------------------------------------------------------------->
+			<tr>
+				<td>57</td>
+				<td>Define un mapa de imágen</td>
+				<td> <code>	< map name="" >áreas< /map > </code> </td>
+				<td>
+					<details>
+						<p>
+							<summary>Ejemplo</summary>
+							<img src="workplace.jpeg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+							<map name="workmap">
+								<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+								<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+								<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+							</map>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#58------------------------------------------------------------------------------->
+			<tr>
+				<td>58</td>
+				<td>Realiza el marcado de un texto</td>
+				<td> <code>	< mark >Texto< /mark > </code> </td>
+				<td> La leche de mipalo es <mark>blanca</mark> </td>
+			</tr>
+			<!--#59------------------------------------------------------------------------------->
+			<tr>
+				<td>59</td>
+				<td>Define el metadato en el documento</td>
+				<td> <code>	< meta charset="" > </code> </td>
+				<td>
+					<!------>
+				</td>
+			</tr>
+			<!--#60------------------------------------------------------------------------------->
+			<tr>
+				<td>60</td>
+				<td>Define una linea de escala de medición</td>
+				<td> <code>	< meter > Detalles < /meter >	</code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<label for="disk_c">Disk usage C:</label>
+							<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+							<label for="disk_d">Disk usage D:</label>
+							<meter id="disk_d" value="0.6">60%</meter>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#61------------------------------------------------------------------------------->
+			<tr>
+				<td>61</td>
+				<td>Define el panel de navegación</td>
+				<td> <code>	< nav >Elementos< /nav >	</code> </td>
+				<td> 
+					<!------>
+				</td>
+			</tr>
+			<!--#62------------------------------------------------------------------------------->
+			<tr>
+				<td>62</td>
+				<td>Define un contenido alternativo si el navegador no soporta javascript</td>
+				<td> <code>	< noscript >< /noscript >	</code> </td>
+				<td>
+					<noscript>Your browser does not support JavaScript!</noscript>
+				</td>
+			</tr>
+			<!--#63------------------------------------------------------------------------------->
+			<tr>
+				<td>63</td>
+				<td>Define un contenedor para una plicación</td>
+				<td> <code>	< object data="" >< /object > </code> </td>
+				<td>
+					<object data="workplace.jpeg" width="100px"></object>
+				</td>
+			</tr>
+			<!--#64------------------------------------------------------------------------------->
+			<tr>
+				<td>64</td>
+				<td>Define una lista ordenada</td>
+				<td> <code>	< ol >Lista< /ol > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<ol>
+								<li>Elemento</li>
+								<li>Elemento</li>
+							</ol>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#65------------------------------------------------------------------------------->
+			<tr>
+				<td>65</td>
+				<td>Define un grupo con relación en una lista desplegable</td>
+				<td> <code>	< optgroup >< /optgroup > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<label for="cars">Choose a car:</label>
+							<select  name="cars" id="cars">
+							  <optgroup label="Swedish Cars">
+							    <option value="volvo">Volvo</option>
+							    <option value="saab">Saab</option>
+							  </optgroup>
+							  <optgroup label="German Cars">
+							    <option value="mercedes">Mercedes</option>
+							    <option value="audi">Audi</option>
+							  </optgroup>
+							</select>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#66------------------------------------------------------------------------------->
+			<tr>
+				<td>66</td>
+				<td>Define una opción dentro de una lista desplegable</td>
+				<td> <code>	< option >Item< /option > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<label for="cars">Choose a car:</label>
+							<select  name="cars" id="cars">
+							  <optgroup label="Swedish Cars">
+							    <option value="volvo">Volvo</option>
+							    <option value="saab">Saab</option>
+							  </optgroup>
+							  <optgroup label="German Cars">
+							    <option value="mercedes">Mercedes</option>
+							    <option value="audi">Audi</option>
+							  </optgroup>
+							</select>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#67------------------------------------------------------------------------------->
+			<tr>
+				<td>67</td>
+				<td>Devuelve el valor de un cálculo</td>
+				<td> <code>	< output >< /output > </code> </td>
+				<td>
+					<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+					  <input type="range" id="a" value="50">
+					  +<input type="number" id="b" value="25">
+					  =<output name="x" for="a b"></output>
+					</form>
+				</td>
+			</tr>
+			<!--#68------------------------------------------------------------------------------->
+			<tr>
+				<td>68</td>
+				<td>Define un parrafo</td>
+				<td> <code>	< p >Texto< /p >	</code> </td>
+				<td>
+					<p>Texto</p>
+				</td>
+			</tr>
+			<!--#69------------------------------------------------------------------------------->
+			<tr>
+				<td>69</td>
+				<td>Define un parametro para un objeto</td>
+				<td> <code>	< param name="" value="">	</code> </td>
+				<td>
+					<object data="Amerika.mp3">
+					  <param name="autoplay" value="false">
+					</object>
+				</td>
+			</tr>
+			<!--#70------------------------------------------------------------------------------->
+			<tr>
+				<td>70</td>
+				<td>Define un contenedor para multiples imágenes</td>
+				<td> <code>	< picture >< /picture >	</code> </td>
+				<td>
+					<picture>
+					  <source media="(min-width:650px)" srcset="workplace.jpeg">
+					  <source media="(min-width:465px)" srcset="terminal.jpeg">
+					  <img src="candado.png" alt="articulos" width="100px">
+					</picture>
+					<label>Resize de Browser</label>
+				</td>
+			</tr>
+			<!--#71------------------------------------------------------------------------------->
+			<tr>
+				<td>71</td>
+				<td>Define una precentación para el texto</td>
+				<td> <code>	< pre >< /pre >	</code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<pre>
+		Text in a pre element
+			is displayed in a fixed-width
+				font, and it preserves
+					both      spaces and
+							line breaks
+						</pre>
+					</details>
+				</td>
+			</tr>
+			<!--#72------------------------------------------------------------------------------->
+			<tr>
+				<td>72</td>
+				<td>Representa el porcentaje de una tarea</td>
+				<td> <code>	< progress id="" value="" max="" >Valor%< /progress > </code> </td>
+				<td>
+					<label for="file">Downloading progress:</label>
+					<progress id="file" value="72" max="100"> 72% </progress>
+				</td>
+			</tr>
+			<!--#73------------------------------------------------------------------------------->
+			<tr>
+				<td>73</td>
+				<td>Resalta un texto con comillas</td>
+				<td> <code>	< q >Texto< /q >	</code> </td>
+				<td>
+					<p>WWF's goal is to:
+						<q>Build a future where people live in harmony with nature.</q>
+						We hope they succeed.
+					</p>
+				</td>
+			</tr>
+			<!--#74------------------------------------------------------------------------------->
+			<tr>
+				<td>74</td>
+				<td>Define que mostrar si tu navegador no soporta Ruby</td>
+				<td> <code>	< rp >Texto< /rp > </code> </td>
+				<td>
+					<ruby>
+						漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
+					</ruby>
+				</td>
+			</tr>
+			<!--#75------------------------------------------------------------------------------->
+			<tr>
+				<td>75</td>
+				<td>Define la procunciación para caracteres Asiáticos</td>
+				<td> <code>	< rt >Carácter< /rt > </code> </td>
+				<td>
+					<ruby>
+						漢 <rt> ㄏㄢˋ </rt>
+					</ruby>
+				</td>
+			</tr>
+			<!--#76------------------------------------------------------------------------------->
+			<tr>
+				<td>76</td>
+				<td>Define las anotaciones en Ruby para caracteres asiaticos</td>
+				<td> <code>	< ruby >Carácter< /ruby > </code> </td>
+				<td>
+					<ruby>
+						漢 <rt> ㄏㄢˋ </rt>
+					</ruby>
+				</td>
+			</tr>
+			<!--#77------------------------------------------------------------------------------->
+			<tr>
+				<td>77</td>
+				<td>Define un texto el cual no es correcto</td>
+				<td> <code>	< s >Texto< /s >	</code> </td>
+				<td>
+					<p><s>Only 50 tickets left!</s></p>
+					<p>SOLD OUT!</p>
+				</td>
+			</tr>
+			<!--#78------------------------------------------------------------------------------->
+			<tr>
+				<td>78</td>
+				<td>Define un texto de salida para un programa</td>
+				<td> <code>	< samp >Texto< /samp > </code> </td>
+				<td>
+					<p>Message from my computer:</p>
+					<p><samp>File not found.<br>Press F1 to continue</samp></p>
+				</td>
+			</tr>
+			<!--#79------------------------------------------------------------------------------->
+			<tr>
+				<td>79</td>
+				<td>Define una etiqueta para el uso de Javascript</td>
+				<td> <code> < script type="text/javascript" >< /script > </code> </td>
+				<td>
+					<script type="text/javascript">
+						//All code here
+					</script>
+				</td>
+			<!--#80------------------------------------------------------------------------------->
+			<tr>
+				<td>80</td>
+				<td>Define la sección de un documento</td>
+				<td> <code>	< section >Contenido< /section >	</code> </td>
+				<td>
+					<section>Contenido</section>
+				</td>
+			</tr>
+			<!--#81------------------------------------------------------------------------------->
+			<tr>
+				<td>81</td>
+				<td>Define una lista desplegable</td>
+				<td> <code>	< select name="" id="" >Opciones< /select > </code> </td>
+				<td>
+					<label for="cars">Choose a car:</label>
+					<select name="cars" id="cars">
+					  <option value="volvo">Volvo</option>
+					  <option value="saab">Saab</option>
+					  <option value="mercedes">Mercedes</option>
+					  <option value="audi">Audi</option>
+					</select>
+				</td>
+			</tr>
+			<!--#82------------------------------------------------------------------------------->
+			<tr>
+				<td>82</td>
+				<td>Define un texto pequeño</td>
+				<td> <code>	< small >Texto< /small >	</code> </td>
+				<td>
+					<p>Texto normal</p>
+					<p><small>Texto pequeño</small></p>
+				</td>
+			</tr>
+			<!--#83------------------------------------------------------------------------------->
+			<tr>
+				<td>83</td>
+				<td>Define la ruta y el tipo de un audio o video</td>
+				<td> <code>	< source src="" type="" > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<video width="320" height="240" controls>
+						  <source src="down.mp4" type="video/mp4">
+						  <source src="down.ogg" type="video/ogg">
+						  Your browser does not support the video tag.
+						</video>
+					</details>
+				</td>
+			</tr>
+			<!--#84------------------------------------------------------------------------------->
+			<tr>
+				<td>84</td>
+				<td>Define una sección en el documento</td>
+				<td> <code>	< span style="" >Texto< /span > </code> </td>
+				<td>
+					<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+				</td>
+			</tr>
+			<!--#85------------------------------------------------------------------------------->
+			<tr>
+				<td>85</td>
+				<td>Define un texto importante</td>
+				<td> <code>	< strong >Nigga< /strong > </code> </td>
+				<td>
+					<strong>Nigga</strong>
+				</td>
+			</tr>
+			<!--#86------------------------------------------------------------------------------->
+			<tr>
+				<td>86</td>
+				<td>Define los estilos que se usarán en el documento</td>
+				<td> <code> < style type="text/css" >CSS< /style > </code> </td>
+				<td>
+					<style type="text/css"> body {background-color: wheat;} </style>
+				</td>
+			</tr>
+			<!--#87------------------------------------------------------------------------------->
+			<tr>
+				<td>87</td>
+				<td>Define un texto subscrito</td>
+				<td> <code>	< sub >text< /sub > </code> </td>
+				<td>
+					<p>This text contains <sub>subscript</sub> text.</p>
+				</td>
+			</tr>
+			<!--#88------------------------------------------------------------------------------->
+			<tr>
+				<td>88</td>
+				<td>Define un titulo para los detalles</td>
+				<td> <code>	< summary >Titulo< /summary >	</code> </td>
+				<td>
+					<details>
+						<summary>Titulo</summary>
+						<p>Detalles</p>
+					</details>
+				</td>
+			</details>
+			<!--#89------------------------------------------------------------------------------->
+			<tr>
+				<td>89</td>
+				<td>Define un texto superscripo</td>
+				<td> <code>	< sup >texto< /sup > </code> </td>
+				<td>
+					Este es un <sup>texto</sup> normal.
+				</td>
+			</tr>
+			<!--#90------------------------------------------------------------------------------->
+			<tr>
+				<td>90</td>
+				<td>Define un contenedor para graficos SVG</td>
+				<td> <code> < svg >Figura< /svg > </code> </td>
+				<td>
+					<svg width="100" height="100">
+					  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+					</svg>
+				</td>
+			</tr>
+			<!--#91------------------------------------------------------------------------------->
+			<tr>
+				<td>91</td>
+				<td>Define una table</td>
+				<td> <code>	< table > < /table > </code> </td>
+				<td>
+					<table>
+						<thead>
+							<tr>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+						<tfoot></tfoot>
+					</table>
+				</td>
+			</tr>
+			<!--#92------------------------------------------------------------------------------->
+			<tr>
+				<td>92</td>
+				<td>Define el contenido principal de la tabla</td>
+				<td> <code>	< tbody >Contenido< /tbody >	</code> </td>
+				<td>
+					<table>
+						<tbody>
+							Contenido
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<!--#93------------------------------------------------------------------------------->
+			<tr>
+				<td>93</td>
+				<td>Define una celda en una tabla</td>
+				<td> <code>	< td >Columna< /td > </code> </td>
+				<td>
+					<table>
+						<tr>
+							<td>Columna</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!--#94------------------------------------------------------------------------------->
+			<tr>
+				<td>94</td>
+				<td>Define un contenedor para contenido oculto en las páginas web</td>
+				<td> <code>	< template >Contenido< /template >	</code> </td>
+				<td>
+					<button onclick="showContent()">Show hidden content</button>
+
+					<template>
+					  <h2>Candado</h2>
+					  <img src="candado.png" width="214" height="204">
+					</template>
+
+					<script>
+						function showContent() {
+						  var temp = document.getElementsByTagName("template")[0];
+						  var clon = temp.content.cloneNode(true);
+						  document.body.appendChild(clon);
+						}
+					</script>
+				</td>
+			<tr>
+			<!--#95------------------------------------------------------------------------------->
+				<td>95</td>
+				<td>Define un área de texto</td>
+				<td> <code>	< textarea >Texto< /textarea > </code> </td>
+				<td>
+					<textarea>
+						Texto
+					</textarea>
+				</td>
+			</tr>
+			<!--#96------------------------------------------------------------------------------->
+			<tr>
+				<td>96</td>
+				<td>Define el pié de página de la tabla</td>
+				<td> <code>	< tfoot >Pié< /tfoot >	</code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<table>
+								<tbody>
+									<!----->
+								</tbody>
+								<tfoot>
+									Pié de tabla
+								</tfoot>
+							</table>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#97------------------------------------------------------------------------------->
+			<tr>
+				<td>97</td>
+				<td>Define el titulo de los encabezados de una tabla</td>
+				<td> <code>	< th >Titulo< /th > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<table>
+								<thead>
+									<th>Col1</th>
+									<th>Col2</th>
+									<th>Col3</th>
+								</thead>
+							</table>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#98------------------------------------------------------------------------------->
+			<tr>
+				<td>98</td>
+				<td>Define los encabezados de las columnas</td>
+				<td> <code>	< thead >Encabezado< /thead >	</code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<table>
+								<tr>
+									<thead>
+										<th>Encabezados</th>
+									</thead>
+								</tr>
+							</table>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#99------------------------------------------------------------------------------->
+			<tr>
+				<td>99</td>
+				<td>Define un tiempo especifico(o una fecha) </td>
+				<td> <code>	< time >Hora< /time > </code> </td>
+				<td>
+					<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+					<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+				</td>
+			</tr>
+			<!--#100------------------------------------------------------------------------------>
+			<tr>
+				<td>100</td>
+				<td>Define el titulo del documento</td>
+				<td> <code>	< title >Titulo< /title >	</code> </td>
+				<td> <!-----> </td>
+			</tr>
+			<!--#101------------------------------------------------------------------------------>
+			<tr>
+				<td>101</td>
+				<td>Define una fila en una tabla</td>
+				<td> <code>	< tr >Celdas< /tr > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<table>
+								<tr>
+									<td>Fila 1 - Columna 1</td>
+								</tr>
+							</table>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#102------------------------------------------------------------------------------>
+			<tr>
+				<td>102</td>
+				<td>Define el track de un video o pelicula</td>
+				<td> <code>	< track src="subtitulos" kind="subtitulos" > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<video width="320" height="240" controls>
+						  <source src="forrest_gump.mp4" type="video/mp4">
+						  <source src="forrest_gump.ogg" type="video/ogg">
+						  <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+						  <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+						</video>
+					</details>
+				</td>
+			</tr>
+			<!--#103------------------------------------------------------------------------------>
+			<tr>
+				<td>103</td>
+				<td>Presenta texto subrayado</td>
+				<td> <code>	< u >< /u >	</code> </td>
+				<td>
+					<p>This is some <u>mispeled</u> text.</p>
+				</td>
+			<!--#104------------------------------------------------------------------------------>
+			<tr>
+				<td>104</td>
+				<td>Define una lista desordenada</td>
+				<td> <code>	< ul >Elementos< /ul > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<p>
+							<ul>
+								<li>Elemento 1</li>
+								<li>Elemento 2</li>
+								<li>Elemento 3</li>
+								<li>Elemento 4</li>
+							</ul>
+						</p>
+					</details>
+				</td>
+			</tr>
+			<!--#105------------------------------------------------------------------------------>
+			<tr>
+				<td>105</td>
+				<td>Define una variable en el texto</td>
+				<td> <code>	< var >variable< /var > </code> </td>
+				<td>
+					<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+				</td>
+			</tr>
+			<!--#106------------------------------------------------------------------------------>
+			<tr>
+				<td>106</td>
+				<td>Define el área para un video</td>
+				<td> <code>	< video >Origen< /video > </code> </td>
+				<td>
+					<details>
+						<summary>Ejemplo</summary>
+						<video width="320" height="240" controls>
+						  <source src="down.mp4" type="video/mp4">
+						  <source src="down.ogg" type="video/ogg">
+						  Your browser does not support the video tag.
+						</video>
+					</details>
+				</td>
+			</tr>
+			<!--#107------------------------------------------------------------------------------>
+			<tr>
+				<td>107</td>
+				<td>Define una posible linea de ruptura</td>
+				<td> <code>	< wbr > </code> </td>
+				<td>
+					<p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>
+				</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<h4>Ramón De La Cruz Vite</h4>
+			<h5>Diciembre 2022</h5>
+		</tfoot>
+	</table>
+</body>
+
+</html>
